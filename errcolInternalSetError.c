@@ -113,6 +113,13 @@ switch( ErrorID ){
 	case 58300:
 	case 58301:
 	case 58302:	strncpy( t->OUT.STAT.ErrorString, "Logging error. Check loggers.", ERRCOL_STRLEN_ERRORSTRING ); break;
+		
+	/* ArEventLog Errors via LogThat */
+	// -1070586087 arEVENTLOG_ERR_LOGBOOK_NOT_FOUND to UINT is 10009
+	case 10009: 
+			strncpy( t->OUT.STAT.ErrorString, "Logging error. Logger not found: ", ERRCOL_STRLEN_ERRORSTRING ); 
+			strncat( t->OUT.STAT.ErrorString, t->IN.CFG.LoggerName, ERRCOL_STRLEN_ERRORSTRING - strlen(t->OUT.STAT.ErrorString) ); 
+			break;
 	
 	default:	strncpy( t->OUT.STAT.ErrorString, "Unknown error.", ERRCOL_STRLEN_ERRORSTRING ); break;
 	
