@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT -- Automation Resources Group
- ********************************************************************
- * Library: ErrorLib
+/*
  * File: errcolAddSourceByName.c
- * Author: David Blackburn
- * Created: November 18, 2011
- ********************************************************************
- * Implementation of library ErrorLib
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of ErrorLib, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus
