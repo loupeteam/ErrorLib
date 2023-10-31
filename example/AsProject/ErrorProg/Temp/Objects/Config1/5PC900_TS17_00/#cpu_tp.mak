@@ -2,7 +2,7 @@ SHELL := cmd.exe
 
 export AS_BUILD_MODE := Build
 export AS_SYSTEM_PATH := C:/BrAutomation/AS/System
-export AS_BIN_PATH := C:/BrAutomation/AS411/Bin-en
+export AS_BIN_PATH := C:/BrAutomation/AS411/bin-en
 export AS_INSTALL_PATH := C:/BrAutomation/AS411
 export AS_PATH := C:/BrAutomation/AS411
 export AS_VC_PATH := C:/BrAutomation/AS411/AS/VC
