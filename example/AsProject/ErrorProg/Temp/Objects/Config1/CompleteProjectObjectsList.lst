@@ -5,7 +5,7 @@
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="133432348279160338" />
+    LastWriteTime="133432401004308021" />
   <Object
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -280,7 +280,7 @@
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\Package.pkg"
     LogicalPath="Libraries.Loupe"
     Type="Package"
-    LastWriteTime="133432361797690211" />
+    LastWriteTime="133432399776506124" />
   <Object
     Path="C:\Projects\Loupe\ErrorLib\src\Ar\ErrorLib\ANSIC.lby"
     LogicalPath="Libraries.Loupe.ErrorLib"
@@ -466,6 +466,82 @@
     LastWriteTime="133432354591180622"
     Private="false" />
   <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Binary.lby"
+    LogicalPath="Libraries.Loupe.logthat"
+    Type="Library"
+    LastWriteTime="133432354591339092" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Types.typ"
+    LogicalPath="Libraries.Loupe.logthat.Types.typ"
+    Type="File"
+    LastWriteTime="133432354591493696"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Constants.var"
+    LogicalPath="Libraries.Loupe.logthat.Constants.var"
+    Type="File"
+    LastWriteTime="133432354591493696"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LogThat.fun"
+    LogicalPath="Libraries.Loupe.logthat.LogThat.fun"
+    Type="File"
+    LastWriteTime="133432354591180622"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LogInternalWrite.h"
+    LogicalPath="Libraries.Loupe.logthat.LogInternalWrite.h"
+    Type="File"
+    LastWriteTime="133432354591180622"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\README.md"
+    LogicalPath="Libraries.Loupe.logthat.README.md"
+    Type="File"
+    LastWriteTime="133432354591493696"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LICENSE.md"
+    LogicalPath="Libraries.Loupe.logthat.LICENSE.md"
+    Type="File"
+    LastWriteTime="133432354591339092"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\Binary.lby"
+    LogicalPath="Libraries.Loupe.stringext"
+    Type="Library"
+    LastWriteTime="133432354591339092" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\RevisionHistory.txt"
+    LogicalPath="Libraries.Loupe.stringext.RevisionHistory.txt"
+    Type="File"
+    LastWriteTime="133432354591493696"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\LICENSE.txt"
+    LogicalPath="Libraries.Loupe.stringext.LICENSE.txt"
+    Type="File"
+    LastWriteTime="133432354591339092"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.typ"
+    LogicalPath="Libraries.Loupe.stringext.StringExt.typ"
+    Type="File"
+    LastWriteTime="133432354591493696"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.var"
+    LogicalPath="Libraries.Loupe.stringext.StringExt.var"
+    Type="File"
+    LastWriteTime="133432354591650669"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.fun"
+    LogicalPath="Libraries.Loupe.stringext.StringExt.fun"
+    Type="File"
+    LastWriteTime="133432354591180622"
+    Private="false" />
+  <Object
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\hmitools\Binary.lby"
     LogicalPath="Libraries.Loupe.hmitools"
     Type="Library"
@@ -596,80 +672,119 @@
     LastWriteTime="133432361793938414"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Binary.lby"
-    LogicalPath="Libraries.Loupe.logthat"
-    Type="Library"
-    LastWriteTime="133432354591339092" />
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\Package.pkg"
+    LogicalPath="MachineControl"
+    Type="Package"
+    LastWriteTime="133432401004308021" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Types.typ"
-    LogicalPath="Libraries.Loupe.logthat.Types.typ"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\cPiperModuleTemplate\ANSIC.prg"
+    LogicalPath="MachineControl.cPiperModuleTemplate"
+    Type="Program"
+    LastWriteTime="133432401003837813" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\cPiperModuleTemplate\Cyclic.c"
+    LogicalPath="MachineControl.cPiperModuleTemplate.Cyclic.c"
     Type="File"
-    LastWriteTime="133432354591493696"
+    LastWriteTime="133432401003684632"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Constants.var"
-    LogicalPath="Libraries.Loupe.logthat.Constants.var"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\cPiperModuleTemplate\PiperModule.var"
+    LogicalPath="MachineControl.cPiperModuleTemplate.PiperModule.var"
     Type="File"
-    LastWriteTime="133432354591493696"
+    LastWriteTime="133432401003684632"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\cPiperModuleTemplate\PiperInterface.c"
+    LogicalPath="MachineControl.cPiperModuleTemplate.PiperInterface.c"
+    Type="File"
+    LastWriteTime="133432401003837813"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LogThat.fun"
-    LogicalPath="Libraries.Loupe.logthat.LogThat.fun"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineControl.typ"
+    LogicalPath="MachineControl.MachineControl.typ"
     Type="File"
-    LastWriteTime="133432354591180622"
+    LastWriteTime="133432401003837813"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LogInternalWrite.h"
-    LogicalPath="Libraries.Loupe.logthat.LogInternalWrite.h"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineControl.var"
+    LogicalPath="MachineControl.MachineControl.var"
     Type="File"
-    LastWriteTime="133432354591180622"
+    LastWriteTime="133432401003837813"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\README.md"
-    LogicalPath="Libraries.Loupe.logthat.README.md"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineHMI\IEC.prg"
+    LogicalPath="MachineControl.MachineHMI"
+    Type="Program"
+    LastWriteTime="133432401003995752" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineHMI\MachineProgCyclic.st"
+    LogicalPath="MachineControl.MachineHMI.MachineProgCyclic.st"
     Type="File"
-    LastWriteTime="133432354591493696"
+    LastWriteTime="133432401003995752"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LICENSE.md"
-    LogicalPath="Libraries.Loupe.logthat.LICENSE.md"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineHMI\MachineProgInit.st"
+    LogicalPath="MachineControl.MachineHMI.MachineProgInit.st"
     Type="File"
-    LastWriteTime="133432354591339092"
+    LastWriteTime="133432401003995752"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\Binary.lby"
-    LogicalPath="Libraries.Loupe.stringext"
-    Type="Library"
-    LastWriteTime="133432354591339092" />
-  <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\RevisionHistory.txt"
-    LogicalPath="Libraries.Loupe.stringext.RevisionHistory.txt"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineHMI\MachineProg.typ"
+    LogicalPath="MachineControl.MachineHMI.MachineProg.typ"
     Type="File"
-    LastWriteTime="133432354591493696"
+    LastWriteTime="133432401003995752"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineHMI\MachineProg.var"
+    LogicalPath="MachineControl.MachineHMI.MachineProg.var"
+    Type="File"
+    LastWriteTime="133432401003995752"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineProg\IEC.prg"
+    LogicalPath="MachineControl.MachineProg"
+    Type="Program"
+    LastWriteTime="133432401004154235" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineProg\MachineProgCyclic.st"
+    LogicalPath="MachineControl.MachineProg.MachineProgCyclic.st"
+    Type="File"
+    LastWriteTime="133432401004154235"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\LICENSE.txt"
-    LogicalPath="Libraries.Loupe.stringext.LICENSE.txt"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineProg\MachineProg.typ"
+    LogicalPath="MachineControl.MachineProg.MachineProg.typ"
     Type="File"
-    LastWriteTime="133432354591339092"
+    LastWriteTime="133432401004154235"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineProg\MachineProg.var"
+    LogicalPath="MachineControl.MachineProg.MachineProg.var"
+    Type="File"
+    LastWriteTime="133432401004154235"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\PiperModuleTemplate\IEC.prg"
+    LogicalPath="MachineControl.PiperModuleTemplate"
+    Type="Program"
+    LastWriteTime="133432401004308021" />
+  <Object
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\PiperModuleTemplate\Cyclic.st"
+    LogicalPath="MachineControl.PiperModuleTemplate.Cyclic.st"
+    Type="File"
+    LastWriteTime="133432401004154235"
     Private="false" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.typ"
-    LogicalPath="Libraries.Loupe.stringext.StringExt.typ"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\PiperModuleTemplate\PiperModule.var"
+    LogicalPath="MachineControl.PiperModuleTemplate.PiperModule.var"
     Type="File"
-    LastWriteTime="133432354591493696"
-    Private="false" />
+    LastWriteTime="133432401004154235"
+    Private="true" />
   <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.var"
-    LogicalPath="Libraries.Loupe.stringext.StringExt.var"
+    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\PiperModuleTemplate\PiperInterface.st"
+    LogicalPath="MachineControl.PiperModuleTemplate.PiperInterface.st"
     Type="File"
-    LastWriteTime="133432354591650669"
-    Private="false" />
-  <Object
-    Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.fun"
-    LogicalPath="Libraries.Loupe.stringext.StringExt.fun"
-    Type="File"
-    LastWriteTime="133432354591180622"
+    LastWriteTime="133432401004308021"
     Private="false" />
   <Object
     Path="C:\Projects\Loupe\ErrorLib\src\Ar\Diagnostics\Package.pkg"
@@ -732,7 +847,7 @@
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133432342770573358"
+    LastWriteTime="133432403796363745"
     Private="false" />
   <Object
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Physical\Config1\Hardware.hwl"
@@ -749,7 +864,7 @@
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Physical\Config1\5PC900_TS17_00\Cpu.sw"
     LogicalPath="Config1.5PC900_TS17_00.Cpu.sw"
     Type="File"
-    LastWriteTime="133432370980295626"
+    LastWriteTime="133432404866060753"
     Private="false" />
   <Object
     Path="C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Physical\Config1\5PC900_TS17_00\Cpu.per"

@@ -3,9 +3,9 @@
   <Objects>
     <Object Type="Library" Language="ANSIC" Reference="true">C:\Projects\Loupe\ErrorLib\src\Ar\ErrorLib\ANSIC.lby</Object>
     <Object Type="Library" Language="Binary">piper</Object>
-    <Object Type="Library" Language="Binary">hmitools</Object>
-    <Object Type="Library" Language="Binary">ringbuflib</Object>
     <Object Type="Library" Language="Binary">logthat</Object>
     <Object Type="Library" Language="Binary">stringext</Object>
+    <Object Type="Library" Language="Binary">hmitools</Object>
+    <Object Type="Library" Language="Binary">ringbuflib</Object>
   </Objects>
 </Package>

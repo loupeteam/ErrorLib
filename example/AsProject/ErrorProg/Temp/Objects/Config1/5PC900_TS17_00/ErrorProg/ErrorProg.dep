@@ -1,0 +1,12 @@
+C:/Projects/Loupe/ErrorLib/src/Ar/ErrorLib/ErrorLib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
+$(AS_PROJECT_PATH)/Logical/MachineControl/MachineControl.var
+C:/Projects/Loupe/ErrorLib/src/Ar/Diagnostics/Diagnostics.var
+C:/Projects/Loupe/ErrorLib/src/Ar/ErrorLib/ErrorCollector.typ
+C:/Projects/Loupe/ErrorLib/src/Ar/ErrorLib/ErrorLib.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/hmitools/HMI_Basic.typ
+C:/Projects/Loupe/ErrorLib/src/Ar/ErrorLib/ErrorCollector_HMI.typ
+C:/Projects/Loupe/ErrorLib/src/Ar/Diagnostics/ErrorProg/PiperModuleTemplate.var

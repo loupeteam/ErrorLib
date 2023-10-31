@@ -23,6 +23,7 @@ extern "C"
 		#include "AsBrStr.h"
 		#include "logthat.h"
 		#include "stringext.h"
+		#include "hmitools.h"
 #endif
 #ifdef _SG4
 		#include "astime.h"
@@ -30,6 +31,7 @@ extern "C"
 		#include "AsBrStr.h"
 		#include "logthat.h"
 		#include "stringext.h"
+		#include "hmitools.h"
 #endif
 #ifdef _SGC
 		#include "astime.h"
@@ -37,6 +39,7 @@ extern "C"
 		#include "AsBrStr.h"
 		#include "logthat.h"
 		#include "stringext.h"
+		#include "hmitools.h"
 #endif
 
 

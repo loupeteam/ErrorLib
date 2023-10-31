@@ -27,7 +27,7 @@
     Version="" />
   <Library
     Name="AsIecCon"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
@@ -51,31 +51,31 @@
     Version="" />
   <Library
     Name="hmitools"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="0.11.4" />
   <Library
     Name="logthat"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="0.05.1" />
   <Library
     Name="operator"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
   <Library
     Name="piper"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="0.01.8" />
   <Library
     Name="ringbuflib"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="0.02.4" />
@@ -93,7 +93,7 @@
     Version="" />
   <Library
     Name="stringext"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="0.14.4" />

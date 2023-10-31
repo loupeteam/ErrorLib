@@ -47,4 +47,67 @@
 <LN ID="%IW.StorageWear" Type="UINT">
 <Prod Device="$root" DPName="StorageWear" Kind="io"/>
 </LN>
+<LN ID="%IX.SS2.ModuleOk" Type="BOOL">
+<Prod Device="SS2" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.SerialNumber" Type="UDINT">
+<Prod Device="SS2" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.SS2.ModuleID" Type="UINT">
+<Prod Device="SS2" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.PowerOnCycles" Type="UDINT">
+<Prod Device="SS2" DPName="PowerOnCycles" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.OperatingHours" Type="UDINT">
+<Prod Device="SS2" DPName="OperatingHours" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.LinkOk" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.LinkOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.OutputDMAMargin" Type="DINT">
+<Prod Device="SS2" DPName="IF1.OutputDMAMargin" Kind="io"/>
+</LN>
+<LN ID="%IB.SS2.IF1.NodeNumber" Type="USINT">
+<Prod Device="SS2" DPName="IF1.NodeNumber" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.CycleOk" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.CycleOk" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.SyncOk" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.SyncOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.TimeSeconds" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.TimeSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.TimeNanoseconds" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.TimeNanoseconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.NettimeSoC" Type="DINT">
+<Prod Device="SS2" DPName="IF1.NettimeSoC" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.NettimeOffset" Type="DINT">
+<Prod Device="SS2" DPName="IF1.NettimeOffset" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.FailedCycleCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.FailedCycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleTimeViolationCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleTimeViolationCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleIdleTime" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleIdleTime" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleCongestionCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleCongestionCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.MinimalLatencyInputMargin" Type="DINT">
+<Prod Device="SS2" DPName="IF1.MinimalLatencyInputMargin" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.FailedMinimalLatencyInputCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.FailedMinimalLatencyInputCount" Kind="io"/>
+</LN>
 </Links></IO>

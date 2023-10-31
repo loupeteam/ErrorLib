@@ -42,6 +42,12 @@ C:\Projects\Loupe\ErrorLib\src\Ar\ErrorLib\ErrorCollector_HMI.typ
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\piper\Piper.typ
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\piper\Piper.var
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\piper\Piper.fun
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Types.typ
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Constants.var
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LogThat.fun
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.typ
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.var
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.fun
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\hmitools\HMITools.typ
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\hmitools\HMITools.var
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\hmitools\HMITools.fun
@@ -55,10 +61,6 @@ C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\h
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\hmitools\Updater.typ
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\ringbuflib\RingBufLib.typ
 C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\ringbuflib\RingBufLib.fun
-C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Types.typ
-C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\Constants.var
-C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\logthat\LogThat.fun
-C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.typ
-C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.var
-C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\Libraries\Loupe\stringext\StringExt.fun
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineControl.typ
+C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Logical\MachineControl\MachineControl.var
 C:\Projects\Loupe\ErrorLib\src\Ar\Diagnostics\Diagnostics.var
