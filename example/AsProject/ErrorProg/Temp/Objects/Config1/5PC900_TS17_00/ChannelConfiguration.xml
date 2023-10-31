@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
+  <Module ID="$root" Hardware="5PC910.SX01-00" HardwareModuleName="5PC900_TS17_00" ModuleID="4">
+    <Channel ID="ModuleID_CPU" Description="Module ID of CPU board" Ext="/HW" Address="0" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="GenericFuncCall" Function="mtcxGetDeviceIdPP500" FuncParam1="0xB" />
+    <Channel ID="TemperatureCPU" Description="Temperature of CPU in 1/10 degree Celsius" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0xB" FuncParam2="0x0" CyclicUpdate="1" />
+    <Channel ID="TemperatureBoard" Description="Temperature of board in 1/10 degree Celsius" Ext="/HW" Address="2" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0xB" FuncParam2="0x1" CyclicUpdate="1" />
+    <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="3" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
+  </Module>
+  <Module ID="$root" Hardware="5PC910.SX01-00" HardwareModuleName="5PC910.SX01-00" ModuleID="6">
+    <Channel ID="SerialNumber" Description="Serial number of system unit" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetSerialNoPP500" FuncParam1="0" />
+    <Channel ID="ModuleID" Description="Module ID of system unit" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="GenericFuncCall" Function="mtcxGetDeviceIdPP500" FuncParam1="0" />
+    <Channel ID="PowerOnCycles" Description="PowerOnCycles of system unit" Ext="/HW" Address="2" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetStatisticsCounter1" FuncParam1="0x0" FuncParam2="0x0" />
+    <Channel ID="OperatingHours" Description="Operating hours of system unit [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetStatisticsCounter0" FuncParam1="0x0" FuncParam2="0x0" CyclicUpdate="1" />
+    <Channel ID="BatteryStatus" Description="Battery status PC (0 = battery low or missing, 1 = battery ok)" Ext="/HW" Address="4" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2" CyclicUpdate="1" />
+    <Channel ID="MtcxVersionMajor" Description="MTCX version" Ext="/HW" Address="5" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="GenericFuncCall" Function="mtcxGetPx32Version2" FuncParam1="1" />
+    <Channel ID="MtcxVersionMinor" Description="MTCX version" Ext="/HW" Address="6" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="GenericFuncCall" Function="mtcxGetPx32Version2" FuncParam1="0" />
+    <Channel ID="TemperaturePS" Description="Temperature of power supply unit in 1/10 degree Celsius" Ext="/HW" Address="7" Direction="IN" Type="UINT" Sig_Temp_PSTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0x0" FuncParam2="0x0" CyclicUpdate="1" />
+    <Channel ID="TemperatureHDD" Description="Temperature of hard disk drive in 1/10 degree Celsius" Ext="/HW" Address="8" Direction="IN" Type="UINT" Sig_Temp_HDDTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0x0" FuncParam2="0x1" CyclicUpdate="1" />
+    <Channel ID="TemperatureRAM" Description="Temperature of RAM module unit in 1/10 degree Celsius" Ext="/HW" Address="9" Direction="IN" Type="UINT" Sig_Temp_RAMTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0x0" FuncParam2="0x2" CyclicUpdate="1" />
+    <Channel ID="StorageWear" Description="Wear level of storage medium in percent" FromVersion="A4.90" Ext="/HW" Address="10" Direction="IN" Type="UINT" Sig_Ana_0percent_100percent_genuine="1" ChannelType="GenericFuncCall" Function="storageDpWear" CyclicUpdate="1" />
+  </Module>
+</ChannelConfiguration>

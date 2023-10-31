@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcoladdsourcebyaddress.c.o">
+    <BuildReason>Target "errcoladdsourcebyaddress.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\ashwac.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcoladdsourcebyname.c.o">
+    <BuildReason>Target "errcoladdsourcebyname.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorprog\errorprogcyclic.st.o">
+    <BuildReason>Target "errorprogcyclic.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcoladderror.c.o">
+    <BuildReason>Target "errcoladderror.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolacknowledge.c.o">
+    <BuildReason>Target "errcolacknowledge.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\5pc900_ts17_00\cpu.sw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errorcollectorfn_init.c.o">
+    <BuildReason>Target "errorcollectorfn_init.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errorcollectorfn_cyclic.c.o">
+    <BuildReason>Target "errorcollectorfn_cyclic.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolinternalseterror.c.o">
+    <BuildReason>Target "errcolinternalseterror.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolintgeneratedisplaystring.c.o">
+    <BuildReason>Target "errcolintgeneratedisplaystring.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolinternaladderror.c.o">
+    <BuildReason>Target "errcolinternaladderror.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolinternallogerror.c.o">
+    <BuildReason>Target "errcolinternallogerror.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolinternallogacknowledge.c.o">
+    <BuildReason>Target "errcolinternallogacknowledge.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolinternalremoveerror.c.o">
+    <BuildReason>Target "errcolinternalremoveerror.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errorcollectorfn_hmi_cyclic.c.o">
+    <BuildReason>Target "errorcollectorfn_hmi_cyclic.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\errorlib\errcolinternalrefreshhmidisplay.c.o">
+    <BuildReason>Target "errcolinternalrefreshhmidisplay.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5pc900_ts17_00\asbrwstr.br">
+    <BuildReason>Target "asbrwstr.br" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>
