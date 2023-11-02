@@ -1,2 +1,0 @@
-ErrorProg | Config1 | Build
-mingw32-make.exe, Error = False. Call = mingw32-make.exe  -r -f "C:\Projects\Loupe\ErrorLib\example\AsProject\ErrorProg\Temp\Objects\Config1\5PC900_TS17_00\#cpu_tp.mak" -k
