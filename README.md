@@ -1,0 +1,17 @@
+# Info
+Package is provided by Loupe  
+https://loupe.team  
+info@loupe.team  
+1-800-240-7042  
+
+# Description
+This program package will install the Diagnostics B&R package that will contain the ErrorProg program for a Automation Studio project and all its dependencies.  
+The ErrorProgInit program will perform simple initialization of parameters if needed.
+The ErrorProgCyclic program will call the a few critical function blocks from the ErrorLib library that manage the globally scoped error collector.
+
+# Installation
+To install using the Loupe Package Manager (LPM), in an initialized Automation Studio project directory run `lpm install errorprog`. For more information about LPM, see https://loupeteam.github.io/LoupeDocs/tools/lpm.html.
+
+# Licensing
+
+This project is licensed under the [MIT License](LICENSE).
