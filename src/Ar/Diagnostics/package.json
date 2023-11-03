@@ -1,7 +1,7 @@
 {
-  "name": "@loupeteam/errorprogpkg",
+  "name": "@loupeteam/errorprog",
   "version": "0.1.0",
-  "description": "Package that will add the error program to your AS project",
+  "description": "This is a program package that will add the error program to your AS project",
   "author": "Loupe",
   "license": "Loupe Software License Agreement",
   "repository": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@loupeteam/hmitools": "^0.11.4",
-    "@loupeteam/piperpkg": "^0.1.8",
+    "@loupeteam/piperprog": "^0.1.8",
     "@loupeteam/errorlib": "^0.23.3"
   },
   "lpm": {
