@@ -1,13 +1,10 @@
-(********************************************************************
- * COPYRIGHT -- Automation Resources Group
- ********************************************************************
- * Program: ErrorCollProg
- * File: ErrorCollProg.typ
- * Author: David Blackburn
- * Created: December 14, 2011
- ********************************************************************
- * Local data types of program ErrorCollProg
- ********************************************************************)
+(*
+* File: ErrorProg.typ
+* Copyright (c) 2023 Loupe
+* https://loupe.team
+* 
+* This file is part of ErrorProg, licensed under the MIT License.
+*)
 
 TYPE
 

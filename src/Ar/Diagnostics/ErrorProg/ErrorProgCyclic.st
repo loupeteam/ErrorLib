@@ -1,13 +1,10 @@
-(********************************************************************
- * COPYRIGHT -- Automation Resources Group
- ********************************************************************
- * Program: ErrorProg
- * File: ErrorProgCyclic.st
- * Author: David Blackburn
- * Created: December 14, 2011
- ********************************************************************
- * Implementation of program ErrorProg
- ********************************************************************)
+(*
+* File: ErrorProgCyclic.st
+* Copyright (c) 2023 Loupe
+* https://loupe.team
+* 
+* This file is part of ErrorProg, licensed under the MIT License.
+*)
 
 
 PROGRAM _CYCLIC

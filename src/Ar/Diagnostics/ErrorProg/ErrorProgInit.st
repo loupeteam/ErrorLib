@@ -1,28 +1,10 @@
-(********************************************************************
- * COPYRIGHT -- Automation Resources Group
- ********************************************************************
- * Program: ErrorProg
- * File: ErrorProgInit.st
- * Author: David Blackburn
- * Created: December 14, 2011
- ********************************************************************
- * Implementation of program ErrorProg
- ********************************************************************)
-
-
-(********************************************************************)
-(*																	*)
-(* This program handles error collection with the help of the 		*)
-(*	ErrorLib library. This library consolidates all system errors 	*)
-(*	into one point for display and acknowledgement.					*)
-(*																	*)
-(* gErrorCollector should first be initialized by setting the 		*)
-(*	CFG values and calling ErrorCollectorFn_Init. Then error 		*)
-(*	sources can be added by calling the errcolAddSourceByName or	*)
-(*	errcolAddSourceByAddress functions.								*)
-(*																	*)
-(********************************************************************)
-
+(*
+* File: ErrorProgInit.st
+* Copyright (c) 2023 Loupe
+* https://loupe.team
+* 
+* This file is part of ErrorProg, licensed under the MIT License.
+*)
 
 PROGRAM _INIT
 
