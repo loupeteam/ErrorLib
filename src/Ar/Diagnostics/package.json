@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "This is a program package that will add the error program to your AS project",
   "author": "Loupe",
-  "license": "Loupe Software License Agreement",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/loupeteam/ErrorLib.git"
@@ -14,7 +14,7 @@
     "@loupeteam/errorlib": "^0.23.3"
   },
   "lpm": {
-    "type": "package",
+    "type": "program",
     "logical": {
       "destination": "Diagnostics"
     },
