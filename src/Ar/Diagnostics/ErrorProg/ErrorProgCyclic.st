@@ -9,8 +9,6 @@
 
 PROGRAM _CYCLIC
 
-PiperModuleInterface;	
-
 ErrorCollectorFn_HMI_Cyclic( gErrorCollectorHMI, gErrorCollector );
 
 ErrorCollectorFn_Cyclic( gErrorCollector );
