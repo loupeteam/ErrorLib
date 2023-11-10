@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT -- Automation Resources Group
- ********************************************************************
- * Library: ErrorLib
+/*
  * File: errcolInternalLogAcknowledge.c
- * Author: David Blackburn
- * Created: May 17, 2013
- ********************************************************************
- * Implementation of library ErrorLib
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of ErrorLib, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus
