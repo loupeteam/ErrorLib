@@ -19,7 +19,7 @@
     <Object Type="Package">mappCockpit</Object>
   </Objects>
   <Configuration ModuleId="5PC900.TS17-00">
-    <AutomationRuntime Version="E4.92" />
+    <AutomationRuntime Version="D4.92" />
     <Build GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Vc FirmwareVersion="V4.72.5" />
