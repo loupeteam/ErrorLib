@@ -1,0 +1,29 @@
+{
+  "name": "@loupeteam/errorprog",
+  "version": "0.1.0",
+  "description": "This is a program package that will add the error program to your AS project",
+  "author": "Loupe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loupeteam/ErrorLib.git"
+  },
+  "dependencies": {
+    "@loupeteam/hmitools": "^0.11.4",
+    "@loupeteam/errorlib": "^0.23.3"
+  },
+  "lpm": {
+    "type": "program",
+    "logical": {
+      "destination": "Diagnostics"
+    },
+    "physical": {
+      "cpu": [
+        {
+          "source": "ErrorProg",
+          "destination": "TC8"
+        }
+      ]
+    }
+  }
+}
