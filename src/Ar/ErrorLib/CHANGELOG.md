@@ -1,3 +1,5 @@
+0.23.4 - Expand StringExt dependency
+
 0.23.3 - Update dependency versions
 
 0.23.2 - Update dependency versions
