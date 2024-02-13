@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.5.5.113 SP?>
-<Library Version="0.23.3" SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.23.4" SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
   <Files>
     <File Description="Exported data types">ErrorLib.typ</File>
     <File Description="Exported constants">ErrorLib.var</File>
@@ -27,7 +27,7 @@
     <Dependency ObjectName="sys_lib" />
     <Dependency ObjectName="HMITools" FromVersion="0.11.4" ToVersion="0.11.9" />
     <Dependency ObjectName="astime" />
-    <Dependency ObjectName="StringExt" FromVersion="0.14.1" ToVersion="0.14.9" />
+    <Dependency ObjectName="StringExt" FromVersion="0.14.1" ToVersion="0.15.9" />
     <Dependency ObjectName="LogThat" FromVersion="0.05.0" ToVersion="0.05.9" />
     <Dependency ObjectName="AsBrStr" />
   </Dependencies>
