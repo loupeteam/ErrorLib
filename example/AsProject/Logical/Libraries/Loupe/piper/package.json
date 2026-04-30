@@ -1,24 +1,21 @@
 {
   "name": "@loupeteam/piper",
-  "version": "0.1.8",
-  "description": "Piper is used to control the state of a machine allowing machines to be built in subsystems in a modular way. Piper-based systems divide the functions of a machine into modules, each with their own task. Each module’s behavior is defined using a common set of machine states per the PackML standard.",
-  "homepage": "https://loupeteam.github.io/Sandbox/libraries/piper.html",
+  "version": "1.0.0",
+  "description": "PackML-style state machine library for B&R Automation Studio",
+  "homepage": "https://loupeteam.github.io/LoupeDocs/libraries/piper.html",
   "scripts": {},
   "keywords": [],
   "author": "Loupe",
-  "license": "Loupe Software License Agreement",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/loupeteam/Piper"
   },
-  "dependencies": {
-    "@loupeteam/logthat": ">=0.5.0 <=0.5.9",
-    "@loupeteam/stringext": ">=0.14.0 <=0.14.9"
-  },
   "lpm": {
-    "type": "library",
-    "logical": {
-      "destination": "Libraries/Loupe"
-    }
+    "type": "library"
+  },
+  "dependencies": {
+    "@loupeteam/logthat": ">=1.0.0",
+    "@loupeteam/stringext": ">=1.0.0"
   }
 }
