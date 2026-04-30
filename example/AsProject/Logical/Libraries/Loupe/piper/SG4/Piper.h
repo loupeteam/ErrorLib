@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* Piper 0.01.8 */
+/* Piper 1.0.0 */
 
 #ifndef _PIPER_
 #define _PIPER_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _Piper_VERSION
-#define _Piper_VERSION 0.01.8
+#define _Piper_VERSION 1.0.0
 #endif
 
 #include <bur/plctypes.h>
@@ -38,22 +38,6 @@ extern "C"
 		#include "logthat.h"
 		#include "stringext.h"
 #endif
-
-
-/* Constants */
-#ifdef _REPLACE_CONST
- #define PIPER_DEFAULT_BOOTING_CYCLES 50U
- #define MAI_PIPER_MODULES 99U
- #define PIPER_DEFAULT_LOGGERNAME "App"
- #define IDLE_SUBSTATE 65535
-#else
- _GLOBAL_CONST unsigned short PIPER_DEFAULT_BOOTING_CYCLES;
- _GLOBAL_CONST unsigned char MAI_PIPER_MODULES;
- _GLOBAL_CONST plcstring PIPER_DEFAULT_LOGGERNAME[9];
- _GLOBAL_CONST signed long IDLE_SUBSTATE;
-#endif
-
-
 
 
 /* Datatypes and datatypes of function blocks */
@@ -135,12 +119,6 @@ typedef struct Piper_Internal_typ
 	unsigned short BootCycles;
 } Piper_Internal_typ;
 
-typedef struct Piper_typ
-{	struct Piper_IN_typ IN;
-	struct Piper_OUT_typ OUT;
-	struct Piper_Internal_typ Internal;
-} Piper_typ;
-
 typedef struct Module_Interface_typ
 {	plcstring ModuleName[81];
 	plcstring ModuleStatus[81];
@@ -148,9 +126,22 @@ typedef struct Module_Interface_typ
 	signed long PiperSubState;
 	enum MACH_ST_enum ModuleResponse;
 	signed long ModuleSubStateRequest;
+	struct Piper_IN_CMD_typ ModuleCommand;
 	plcbit ModuleBypass;
 	plcbit ModuleIsBypassed;
 } Module_Interface_typ;
+
+typedef struct Piper_IO_typ
+{	struct Module_Interface_typ iMainInterface;
+	struct Module_Interface_typ oMainInterface;
+} Piper_IO_typ;
+
+typedef struct Piper_typ
+{	struct Piper_IN_typ IN;
+	struct Piper_OUT_typ OUT;
+	struct Piper_Internal_typ Internal;
+	struct Piper_IO_typ IO;
+} Piper_typ;
 
 typedef struct Piper_Module_Internal_typ
 {	plcbit Added;
@@ -171,12 +162,34 @@ typedef struct Piper_Module_Fub
 /* Prototyping of functions and function blocks */
 _BUR_PUBLIC void Piper_Module_Fub(struct Piper_Module_Fub* inst);
 _BUR_PUBLIC plcbit Piper_fn_Cyclic(struct Piper_typ* Piper);
-_BUR_PUBLIC plcbit Piper_setCommand(struct Piper_typ* Piper);
+_BUR_PUBLIC plcbit Piper_Remote_fn_Cyclic(struct Piper_typ* Piper, plcbit IsRemote);
+_BUR_PUBLIC plcbit Piper_changeState(struct Piper_typ* Piper, enum MACH_ST_enum State);
 _BUR_PUBLIC plcbit Piper_checkResponses(struct Piper_typ* Piper);
+_BUR_PUBLIC plcbit Piper_getState_remote(struct Piper_typ* Piper);
 _BUR_PUBLIC plcbit Piper_handleResponseState(struct Piper_typ* Piper);
 _BUR_PUBLIC plcbit Piper_PackML(struct Piper_typ* Piper);
+_BUR_PUBLIC plcbit Piper_setCommand(struct Piper_typ* Piper);
+_BUR_PUBLIC plcbit Piper_setSubstate(struct Piper_typ* Piper);
 _BUR_PUBLIC plcbit PackMLStateString(enum MACH_ST_enum State, plcstring* String);
-_BUR_PUBLIC plcbit PiperStateChange(struct Piper_typ* Piper, enum MACH_ST_enum State);
+_BUR_PUBLIC plcbit PiperModuleDoneWithState(struct Module_Interface_typ* ModuleInterface);
+_BUR_PUBLIC plcbit PiperModuleDoneWithSubstate(struct Module_Interface_typ* ModuleInterface);
+_BUR_PUBLIC unsigned short Piper_getBusyModules(struct Piper_typ* Piper, unsigned long pModuleArray, unsigned short numModules, unsigned short offset);
+
+
+/* Constants */
+#ifdef _REPLACE_CONST
+ #define PIPER_DEFAULT_BOOTING_CYCLES 50U
+ #define MAI_PIPER_MODULES 99U
+ #define PIPER_DEFAULT_LOGGERNAME "App"
+ #define IDLE_SUBSTATE 65535
+#else
+ _GLOBAL_CONST unsigned short PIPER_DEFAULT_BOOTING_CYCLES;
+ _GLOBAL_CONST unsigned char MAI_PIPER_MODULES;
+ _GLOBAL_CONST plcstring PIPER_DEFAULT_LOGGERNAME[9];
+ _GLOBAL_CONST signed long IDLE_SUBSTATE;
+#endif
+
+
 
 
 __asm__(".section \".plc\"");
