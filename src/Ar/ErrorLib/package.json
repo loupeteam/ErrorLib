@@ -1,0 +1,17 @@
+{
+  "name": "@loupeteam/errorlib",
+  "version": "0.0.0",
+  "description": "Error handling library for B&R Automation Studio",
+  "homepage": "https://loupeteam.github.io/LoupeDocs/libraries/errorlib.html",
+  "scripts": {},
+  "keywords": [],
+  "author": "Loupe",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/loupeteam/ErrorLib" },
+  "lpm": { "type": "library" },
+  "dependencies": {
+    "@loupeteam/hmitools": ">=1.0.0",
+    "@loupeteam/logthat": ">=1.0.0",
+    "@loupeteam/stringext": ">=1.0.0"
+  }
+}
